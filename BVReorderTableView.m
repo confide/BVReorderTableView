@@ -313,8 +313,9 @@
 }
 
 - (void)cancelGesture {
+    BOOL enabled = self.longPress.enabled;
     longPress.enabled = NO;
-    longPress.enabled = YES;
+    longPress.enabled = enabled;
 }
 
 @end
