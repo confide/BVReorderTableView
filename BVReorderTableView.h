@@ -48,4 +48,6 @@
 @property (nonatomic, assign) CGFloat draggingViewOpacity;
 @property (nonatomic, assign) BOOL canReorder;
 
+- (void)cancelGesture;
+
 @end
