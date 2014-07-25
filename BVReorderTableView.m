@@ -210,7 +210,7 @@
         }
     }
     // dropped
-    else if (gesture.state == UIGestureRecognizerStateEnded) {
+    else if (gesture.state == UIGestureRecognizerStateEnded || gesture.state == UIGestureRecognizerStateCancelled) {
         
         indexPath = self.currentLocationIndexPath;
         
