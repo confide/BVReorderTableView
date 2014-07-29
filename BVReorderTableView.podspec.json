@@ -1,6 +1,6 @@
 {
   "name": "BVReorderTableView",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "Easy Long Press Reordering for UITableView.",
   "homepage": "https://github.com/confide/BVReorderTableView",
   "screenshots": "https://raw.github.com/bvogelzang/BVReorderTableView/master/Screenshot1.png",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/confide/BVReorderTableView.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "5.0"
