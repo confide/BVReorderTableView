@@ -218,7 +218,11 @@
         [self.scrollDisplayLink invalidate];
         self.scrollDisplayLink = nil;
         self.scrollRate = 0;
-        
+
+        if (!indexPath) {
+            return;
+        }
+
         // animate the drag view to the newly hovered cell
         [UIView animateWithDuration:0.3
                          animations:^{
